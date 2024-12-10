@@ -1,0 +1,38 @@
+/* Global Styles */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #007cf0;
+}
+
+.skill-icon img {
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-icon img:hover {
+  transform: scale(1.1);
+}
+.animated-bg {
+  background: linear-gradient(90deg, #007cf0, #00dfd8);
+  background-size: 300% 300%;
+  animation: gradient 6s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
