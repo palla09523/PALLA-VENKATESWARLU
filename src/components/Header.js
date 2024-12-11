@@ -5,7 +5,7 @@ function Header() {
     <header className="bg-gray-900 text-white sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         <h1 className="text-xl font-bold">Palla Venkateswarlu</h1>
-        <nav className="flex items-center">
+        <nav className="hidden md:flex items-center">
           <a href="#about" className="px-4">About</a>
           <a href="#skills" className="px-4">Skills</a>
           <a href="#projects" className="px-4">Projects</a>
